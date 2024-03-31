@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Patterns.AbstractFactory;
 using Patterns.Adapter;
+using Patterns.Decorator;
 using Patterns.DI_IoC;
 using Patterns.Factory;
 using Patterns.Mediator;
@@ -40,3 +41,8 @@ Console.WriteLine("------");
 Console.WriteLine("DI");
 Console.WriteLine("------");
 DITest.Test();
+
+Console.WriteLine("------");
+Console.WriteLine("Decorator");
+Console.WriteLine("------");
+DecoratorTest.Test();
